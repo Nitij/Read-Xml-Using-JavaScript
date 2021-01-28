@@ -22,15 +22,15 @@
                     td.innerText = bookXmlNode.children[1].innerHTML;
                     row.appendChild(td);
                     
-                    //price
-                    td = document.createElement('td');
-                    td.innerText = '$ ' + bookXmlNode.children[3].innerHTML;
-                    row.appendChild(td);
+                    // //price
+                    // td = document.createElement('td');
+                    // td.innerText = '$ ' + bookXmlNode.children[3].innerHTML;
+                    // row.appendChild(td);
 
-                    //description
-                    td = document.createElement('td');
-                    td.innerText = bookXmlNode.children[5].innerHTML;
-                    row.appendChild(td);
+                    // //description
+                    // td = document.createElement('td');
+                    // td.innerText = bookXmlNode.children[5].innerHTML;
+                    // row.appendChild(td);
 
                     tableBooks.children[1].appendChild(row);
                     
