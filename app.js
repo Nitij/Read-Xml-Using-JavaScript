@@ -23,8 +23,14 @@ document.getElementById('fileInput').addEventListener('change', function selecte
 
   };
 
+  let xmlContent = '';
+  let tableBooks = document.getElementById('books');
  
   for( const file of fileInput.files){
+    
+      xmlContent = xml;
+    
+  
 
       let parser = new DOMParser();
       let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
@@ -38,7 +44,7 @@ document.getElementById('fileInput').addEventListener('change', function selecte
       td.innerText = books.children[0].innerHTML;
       row.appendChild(td);
 
-      //  Valor
+      //Valor
       td = document.createElement('td');
       td.innerText = books2.children[1].innerHTML;
       row.appendChild(td);
