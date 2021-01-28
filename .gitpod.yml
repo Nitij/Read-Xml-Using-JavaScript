@@ -7,3 +7,4 @@ tasks:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint@2.1.8:02aHhbJ0Q4aGdjHXlTdVKg==
+    - ritwickdey.liveserver@5.6.1:5Mhl1RgVVDcIym163x8r+w==
